@@ -1,9 +1,0 @@
-[package]
-name = "octo_xyx"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-clap = { version = "4.5.35", features = ["derive"] }
-sudo = "0.6.0"
-colored = "2.0"
