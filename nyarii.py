@@ -4,7 +4,7 @@
 import sys
 import time
 import random
-from ui.ui import UWU_EMOTES, Colors,  print_slow, clear_screen, show_logo, show_message
+from ui.ui import UWU_EMOTES, Colors,  print_slow, clear_screen, show_logo, show_message, uwuify
 from attacks import web
 
 
@@ -126,10 +126,13 @@ def execute_attack(category, attack_type):
     if category == "web":
         web.attack(attack_type)
     elif category == "port scanning":
+        print(f"\n{Colors.LIGHT_BLUE}[*]{uwuify("It's not implemented yet! Mock for now!")}{Colors.END}")
         do_port_scanning(attack_type)
     elif category == "ddos":
+        print(f"\n{Colors.LIGHT_BLUE}[*]{uwuify("It's not implemented yet! Mock for now!")}{Colors.END}")
         do_ddos(attack_type)
     else:
+        print(f"\n{Colors.LIGHT_BLUE}[*]{uwuify("It's not implemented yet! Mock for now!")}{Colors.END}")
         # this is just a mock till i get it done
         do_generic_attack(category, attack_type)
     

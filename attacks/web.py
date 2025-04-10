@@ -9,6 +9,7 @@ class WebAttack:
         self.threads:int = threads
 
 
+
 def attack(attack_type):
     """Handle web-based attacks"""
     print(f"\n{Colors.LIGHT_PINK}[✧˚ . ✰] Stawting web attack: {attack_type} {random.choice(UWU_EMOTES)}{Colors.END}")

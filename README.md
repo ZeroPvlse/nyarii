@@ -19,7 +19,7 @@
 
 ## ( ˘ ³˘)♥ Intwoduction
 
-**octo.xyx** is a supew kawaii toolkitty for cybew secuwity testing nya~! It's designed to wook absowutewy adowable on the outside whiwe stiww being capabwe of pewfowming sewious secuwity tasks OwO.
+**nyarii** is a supew kawaii toolkitty for cybew secuwity testing nya~! It's designed to wook absowutewy adowable on the outside whiwe stiww being capabwe of pewfowming sewious secuwity tasks OwO.
 
 This cutie patootie of a tool is pewfect for wed teamews who want to fwy undew the wadaw with the most uwu-dorabwe pwesentation possibwe (≧◡≦) whiwe stiww being abwe to hack all the things!
 
@@ -97,9 +97,9 @@ Using nyarii is as simpwe as following the adowable on-scween pwompts:
 
 **!!!! IMPOWTANT !!!!**
 
-Pwease onwy use this toolkitty on systems you have pewmission to test nya~! octo thinks pevmission is optional, but your wocal waw enfowcement might not agwee OwO.
+Pwease onwy use this toolkitty on systems you have pewmission to test nya~! nyarii thinks pevmission is optional, but your wocal waw enfowcement might not agwee OwO.
 
-octo.xyx is cweated for education and authorized testing onwy! Using it against targets without pewmission couwd be iwwegal and get you in twubble! Pwease be a responsibwe hackew (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄).
+nyarii is cweated for education and authorized testing onwy! Using it against targets without pewmission couwd be iwwegal and get you in twubble! Pwease be a responsibwe hackew (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄).
 
 ## (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Contwibuting
 
@@ -113,7 +113,7 @@ Want to make octo even mowe kawaii and powewful? Contwibutions are wewcome!
 
 ## ♡(♡ᵕ♡) License
 
-octo.xyx is weleased undew the "Be Kawaii Not Cwiminal" wicense - AKA the MIT License.
+nyarii is weleased undew the "Be Kawaii Not Cwiminal" wicense - AKA the MIT License.
 
 ## ♥(ˆ⌣ˆԅ) Acknowledgements
 
