@@ -19,7 +19,6 @@ class TestBruteforce(unittest.TestCase):
         
         bf = Init()
         
-        
         self.assertEqual(bf.target, 'http://example.com')
         self.assertEqual(bf.wordlist_path, '/path/to/wordlist.txt')
         self.assertEqual(bf.threads, 5)
@@ -94,12 +93,17 @@ class TestBruteforce(unittest.TestCase):
         self.assertEqual(bf.threads, 10)  
         self.assertEqual(mock_prompt.call_count, 3)
     
+    @patch('attacks.bruteforce.Init.multithreaded_scan')  # mock the multithreaded_scan method
     @patch('builtins.print')
     @patch('os.path.abspath')
     @patch('os.path.expanduser')
     @patch('builtins.open', new_callable=mock_open, read_data="endpoint1\nendpoint2\nendpoint3")
     @patch('attacks.bruteforce.prompt')
-    def test_run_method(self, mock_prompt, mock_file, mock_expanduser, mock_abspath, mock_print):
+    @patch('attacks.bruteforce.PathCompleter')
+    def test_run_method(self, mock_path_completer, mock_prompt, mock_file, mock_expanduser, 
+                      mock_abspath, mock_print, mock_multithreaded_scan):
+        # reset mocks to clear any previous calls
+        mock_expanduser.reset_mock()
         
         mock_prompt.side_effect = [
             'http://example.com',  
@@ -108,7 +112,17 @@ class TestBruteforce(unittest.TestCase):
         ]
         mock_expanduser.return_value = '/expanded/path/to/wordlist.txt'
         mock_abspath.return_value = '/absolute/path/to/wordlist.txt'
+        
+        path_completer_instance = MagicMock()
+        mock_path_completer.return_value = path_completer_instance
+        
         bf = Init()
+        
+        # reset mocks again before calling run(), to ensure we only count the calls from run()
+        mock_expanduser.reset_mock()
+        mock_abspath.reset_mock()
+        
+        # prevent multithreaded_scan from being called to avoid requests library calls
         bf.run()
         
         mock_expanduser.assert_called_once_with('/path/to/wordlist.txt')

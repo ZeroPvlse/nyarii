@@ -3,5 +3,6 @@ charset-normalizer==3.4.1
 idna==3.10
 prompt_toolkit==3.0.50
 requests==2.32.3
+tqdm==4.67.1
 urllib3==2.4.0
 wcwidth==0.2.13
