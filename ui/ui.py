@@ -83,20 +83,23 @@ def show_message():
 
 def uwuify(text: str) -> str:
     """Make text more uwu-like"""
+    
     text = text.replace("r", "w").replace("l", "w")
     text = text.replace("R", "W").replace("L", "W")
-    text = text.replace("th", "d").replace("Th", "D")
-    text = text.replace("ing", "in'")
+    text = text.replace("ing", "in'").replace("you", "yu")
+    text = text.replace("are", "awwe").replace("that", "dat")
     text = text.replace("!", "~! " + random.choice(UWU_EMOTES))
     text = text.replace(".", "~ " + random.choice(UWU_EMOTES))
     
     if random.random() < 1.3 and len(text) > 3 and text[0].isalpha():
         text = text[0] + "-" + text
     
-    # sometimes add a trailing nya or uwu
     if random.random() < 0.2:
         text += " nya~"
     elif random.random() < 0.2:
         text += " uwu"
     
+    if random.random() < 0.1:
+        text += " (´∀｀)♡"
+
     return text

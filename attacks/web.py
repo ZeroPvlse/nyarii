@@ -1,6 +1,8 @@
-from ui.ui import UWU_EMOTES, Colors, show_message
+from ui.ui import UWU_EMOTES, Colors, show_message 
 import random
 import time
+from . import bruteforce
+
 
 class WebAttack:
     def __init__(self, wordlist: str, target:str, threads: int):
@@ -12,7 +14,6 @@ class WebAttack:
 
 def attack(attack_type):
     """Handle web-based attacks"""
-    print(f"\n{Colors.LIGHT_PINK}[✧˚ . ✰] Stawting web attack: {attack_type} {random.choice(UWU_EMOTES)}{Colors.END}")
     show_message()
     
     if attack_type == "fuzzing":
@@ -36,9 +37,13 @@ def attack(attack_type):
         print(f"{Colors.LIGHT_BLUE}[*] Databases want to be wead too~ uwu{Colors.END}")
     
     elif attack_type == "brute force":
+
+        bruteforcer = bruteforce.Init()
+        bruteforcer.run()
         print(f"{Colors.LIGHT_BLUE}[*] Twying evewy key because one must wowk~ {random.choice(UWU_EMOTES)}{Colors.END}")
         time.sleep(1)
         print(f"{Colors.LIGHT_BLUE}[*] If they didn't want visitows, why have a wogin? nya~{Colors.END}")
+
         
     elif attack_type == "directory traversal":
         print(f"{Colors.LIGHT_BLUE}[*] Expwowing paths wess twavewed~ {random.choice(UWU_EMOTES)}{Colors.END}")

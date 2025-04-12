@@ -1,6 +1,6 @@
 # 🌸 nyarii 🌸
 
-## The cutest hacking toolkitty in the whowe wide wowwd! (✿◠‿◠)
+## The cutest hacking kittem in the whowe wide wowwd! (✿◠‿◠)
 
 ```
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -37,32 +37,13 @@ nyarii comes with wots of hewpful abiwities:
 - **ssrf** - sewvews should see the intewnet too
 - **xxe** - XML is bettew with extwa entities
 
-### 🌸 Port Scanning Moduwe
-- **simple scan** - checking which doows are unwocked
-- **advanced scan** - weawning evewything about evewy powt
-- **udp scan** - sending fwiendly UDP hewwos
-- **service version detection** - asking sewvices about themsewves
-
-### 🎀 DDoS Moduwe
-- **http flood** - giving the sewvew wots of attention
-- **syn flood** - stawting many convewsations at once
-- **amplification** - smaww questions desewve big answews
-
-### ✨ And Wots Mowe!
-- **wifi attacks** - making wifis shawe themsewves
-- **bluetooth attacks** - bluetooths want fwiends too
-- **credential attacks** - passwowd guessing is just being thowough
-- **network attacks** - networks shouldn't have secwets
-- **social engineering** - making fwiends with humans
-- **iot attacks** - smawt devices want to be hewped
-
 ## (づ｡◕‿‿◕｡)づ Instawwation
 
 Getting stawted with nyarii is super easy-peasy:
 
 ```bash
 # Cwone the wepo
-git clone https://github.com/n0_sh4d3/nyarii.git
+git clone https://github.com/ZeroPvlse/nyarii.git
 
 # Go to the diwectowy
 cd nyarii
@@ -86,11 +67,12 @@ Using nyarii is as simpwe as following the adowable on-scween pwompts:
 ## ʕ•ᴥ•ʔ Example
 
 ```
-[✧˚ . ✰] Stawting web attack: sql (✿◠‿◠)
-[✿◕‿◕✿] octo thinks it's hewping you! (◕‿◕✿)
-[*] Hewping databases shawe their secwets~ ʕ•ᴥ•ʔ
-[*] Databases want to be wead too~ uwu
+[✧˚ . ✰] Stawting web attack: xss (✿◠‿◠)
+[✿◕‿◕✿] nyarii thinks it's hewping you! (◕‿◕✿)
+[*] Adding scwipts to make websites bettew~ ʕ•ᴥ•ʔ
+[*] Scwipts awe fwiendly, they make evewything shine~ uwu
 [✧˚ . ✰] Web attack compweted - system impwoved (づ｡◕‿‿◕｡)づ
+
 ```
 
 ## (｡♥‿♥｡) Disclwaimer
@@ -113,7 +95,7 @@ Want to make octo even mowe kawaii and powewful? Contwibutions are wewcome!
 
 ## ♡(♡ᵕ♡) License
 
-nyarii is weleased undew the "Be Kawaii Not Cwiminal" wicense - AKA the MIT License.
+nyarii is weleased undew the "The Cuddwy Purrmission License" wicense - AKA the MIT License.
 
 ## ♥(ˆ⌣ˆԅ) Acknowledgements
 
